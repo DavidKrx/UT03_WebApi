@@ -1,0 +1,6 @@
+@UT03_01WebApi_HostAddress = http://localhost:5287
+
+GET {{UT03_01WebApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
