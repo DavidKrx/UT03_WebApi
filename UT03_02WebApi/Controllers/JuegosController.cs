@@ -45,39 +45,64 @@ namespace UT03_02WebApi.Controllers
         [HttpGet("{id}")]
         public IActionResult Get(int id)
         {
-            var game= Juegos.Find(a => a.Id == id);
-            if (game == null)
-            {
-                return NotFound();
-            }
-        
-            return Ok(game);  
+                var game = Juegos.Find(a => a.Id == id);
+                if (game == null)
+                {
+                    return NotFound();
+                }
+
+                return Ok(game);
         }
 
         [HttpPost]
         public IActionResult Post([FromBody] Juego juego)
         {
-            int idJuego=Juegos.Last().Id;
-            if (juego == null)
+            if (ModelState.IsValid)
             {
-                return NotFound();
+                int idJuego = Juegos.Last().Id;
+                if (juego == null)
+                {
+                    return NotFound();
+                }
+                juego.Id = idJuego + 1;
+                Juegos.Add(juego);
+                return CreatedAtAction(nameof(Get), nameof(JuegosController), juego);
             }
-            juego.Id = idJuego+1;
-            Juegos.Add(juego);
-            return CreatedAtAction(nameof(Get), nameof(JuegosController), juego);
+            return BadRequest();
         }
+        /*UPDATE*/
         [HttpPut("{id}")]
         public IActionResult Put(int id,[FromBody] Juego juego)
         {
             Juego game=Juegos.Find(a => a.Id == id);
-            if (game == null)
+            if (ModelState.IsValid)
             {
-                return NotFound();
+                if (game == null)
+                {
+                    return NotFound();
+                }
+                game.Id = juego.Id;
+                game.Title = juego.Title;
+                game.Genre = juego.Genre;
+                return Ok(game);
             }
-            game.Id = juego.Id;
-            game.Title = juego.Title;
-            game.Genre=juego.Genre;
-            return Ok(game);
+            return BadRequest();
+        }
+        [HttpDelete("{id}")]
+        public IActionResult Delete(int id, Juego juego)
+        {
+            Juego game = Juegos.Find(a => a.Id == id);
+            if (ModelState.IsValid)
+            {
+
+                if (game == null)
+                {
+                    return NotFound();
+                }
+                Juegos.Remove(game);
+                return Ok(game);
+            }
+            return BadRequest();
         }
     }
 }

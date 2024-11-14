@@ -42,8 +42,7 @@
               "RelativeToolTip": "UT03_02WebApi\\Models\\Juego.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T08:18:35.083Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-13T08:18:35.083Z"
             },
             {
               "$type": "Document",
@@ -55,8 +54,7 @@
               "RelativeToolTip": "UT03_01WebApi\\Controllers\\WeatherForecastController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T08:08:40.159Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-13T08:08:40.159Z"
             },
             {
               "$type": "Document",
@@ -66,7 +64,7 @@
               "RelativeDocumentMoniker": "UT03_02WebApi\\Controllers\\JuegosController.cs",
               "ToolTip": "C:\\Users\\2dawa\\Documents\\UT03_WebApi\\UT03_02WebApi\\Controllers\\JuegosController.cs",
               "RelativeToolTip": "UT03_02WebApi\\Controllers\\JuegosController.cs",
-              "ViewState": "AQIAAC8AAAAAAAAAAAAwwEwAAAAOAAAA",
+              "ViewState": "AQIAACUAAAAAAAAAAAAgwFMAAAALAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-13T08:08:36.658Z",
               "EditorCaption": ""
@@ -81,8 +79,7 @@
               "RelativeToolTip": "UT03_01WebApi\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T08:31:41.998Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-13T08:31:41.998Z"
             }
           ]
         },
