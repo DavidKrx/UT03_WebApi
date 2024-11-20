@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\2dawa\\Documents\\UT03_WebApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C5B7F071-A6D2-4EF9-9096-F8EF6D7C7F10}|UT03_02WebApi\\UT03_02WebApi.csproj|c:\\users\\2dawa\\documents\\ut03_webapi\\ut03_02webapi\\controllers\\juegoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C5B7F071-A6D2-4EF9-9096-F8EF6D7C7F10}|UT03_02WebApi\\UT03_02WebApi.csproj|solutionrelative:ut03_02webapi\\controllers\\juegoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{638296D8-1936-4109-81FB-5CC470890814}|UT03_03WebApi\\UT03_03WebApi.csproj|c:\\users\\2dawa\\documents\\ut03_webapi\\ut03_03webapi\\controllers\\genrescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{638296D8-1936-4109-81FB-5CC470890814}|UT03_03WebApi\\UT03_03WebApi.csproj|solutionrelative:ut03_03webapi\\controllers\\genrescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F8B7F6BF-E291-4E9E-AEE3-E8F82AF1B024}|UT03_01WebApi\\UT03_01WebApi.csproj|c:\\users\\2dawa\\documents\\ut03_webapi\\ut03_01webapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F8B7F6BF-E291-4E9E-AEE3-E8F82AF1B024}|UT03_01WebApi\\UT03_01WebApi.csproj|solutionrelative:ut03_01webapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{638296D8-1936-4109-81FB-5CC470890814}|UT03_03WebApi\\UT03_03WebApi.csproj|c:\\users\\2dawa\\documents\\ut03_webapi\\ut03_03webapi\\controllers\\gamescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{638296D8-1936-4109-81FB-5CC470890814}|UT03_03WebApi\\UT03_03WebApi.csproj|solutionrelative:ut03_03webapi\\controllers\\gamescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F8B7F6BF-E291-4E9E-AEE3-E8F82AF1B024}|UT03_01WebApi\\UT03_01WebApi.csproj|c:\\users\\2dawa\\documents\\ut03_webapi\\ut03_01webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F8B7F6BF-E291-4E9E-AEE3-E8F82AF1B024}|UT03_01WebApi\\UT03_01WebApi.csproj|solutionrelative:ut03_01webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{638296D8-1936-4109-81FB-5CC470890814}|UT03_03WebApi\\UT03_03WebApi.csproj|c:\\users\\2dawa\\documents\\ut03_webapi\\ut03_03webapi\\models\\genre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{638296D8-1936-4109-81FB-5CC470890814}|UT03_03WebApi\\UT03_03WebApi.csproj|solutionrelative:ut03_03webapi\\models\\genre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C5B7F071-A6D2-4EF9-9096-F8EF6D7C7F10}|UT03_02WebApi\\UT03_02WebApi.csproj|c:\\users\\2dawa\\documents\\ut03_webapi\\ut03_02webapi\\models\\juego.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C5B7F071-A6D2-4EF9-9096-F8EF6D7C7F10}|UT03_02WebApi\\UT03_02WebApi.csproj|solutionrelative:ut03_02webapi\\models\\juego.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{638296D8-1936-4109-81FB-5CC470890814}|UT03_03WebApi\\UT03_03WebApi.csproj|c:\\users\\2dawa\\documents\\ut03_webapi\\ut03_03webapi\\models\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{638296D8-1936-4109-81FB-5CC470890814}|UT03_03WebApi\\UT03_03WebApi.csproj|solutionrelative:ut03_03webapi\\models\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{638296D8-1936-4109-81FB-5CC470890814}|UT03_03WebApi\\UT03_03WebApi.csproj|c:\\users\\2dawa\\documents\\ut03_webapi\\ut03_03webapi\\ut03_03webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{638296D8-1936-4109-81FB-5CC470890814}|UT03_03WebApi\\UT03_03WebApi.csproj|solutionrelative:ut03_03webapi\\ut03_03webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,60 +30,76 @@
       "DocumentGroups": [
         {
           "DockedWidth": 1352,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Juego.cs",
-              "DocumentMoniker": "C:\\Users\\2dawa\\Documents\\UT03_WebApi\\UT03_02WebApi\\Models\\Juego.cs",
-              "RelativeDocumentMoniker": "UT03_02WebApi\\Models\\Juego.cs",
-              "ToolTip": "C:\\Users\\2dawa\\Documents\\UT03_WebApi\\UT03_02WebApi\\Models\\Juego.cs",
-              "RelativeToolTip": "UT03_02WebApi\\Models\\Juego.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAABAAAA",
+              "DocumentIndex": 0,
+              "Title": "GenresController.cs",
+              "DocumentMoniker": "C:\\Users\\2dawa\\Documents\\UT03_WebApi\\UT03_03WebApi\\Controllers\\GenresController.cs",
+              "RelativeDocumentMoniker": "UT03_03WebApi\\Controllers\\GenresController.cs",
+              "ToolTip": "C:\\Users\\2dawa\\Documents\\UT03_WebApi\\UT03_03WebApi\\Controllers\\GenresController.cs",
+              "RelativeToolTip": "UT03_03WebApi\\Controllers\\GenresController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T08:18:35.083Z"
+              "WhenOpened": "2024-11-20T09:36:34.733Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "WeatherForecastController.cs",
-              "DocumentMoniker": "C:\\Users\\2dawa\\Documents\\UT03_WebApi\\UT03_01WebApi\\Controllers\\WeatherForecastController.cs",
-              "RelativeDocumentMoniker": "UT03_01WebApi\\Controllers\\WeatherForecastController.cs",
-              "ToolTip": "C:\\Users\\2dawa\\Documents\\UT03_WebApi\\UT03_01WebApi\\Controllers\\WeatherForecastController.cs",
-              "RelativeToolTip": "UT03_01WebApi\\Controllers\\WeatherForecastController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAApAAAA",
+              "Title": "GamesController.cs",
+              "DocumentMoniker": "C:\\Users\\2dawa\\Documents\\UT03_WebApi\\UT03_03WebApi\\Controllers\\GamesController.cs",
+              "RelativeDocumentMoniker": "UT03_03WebApi\\Controllers\\GamesController.cs",
+              "ToolTip": "C:\\Users\\2dawa\\Documents\\UT03_WebApi\\UT03_03WebApi\\Controllers\\GamesController.cs",
+              "RelativeToolTip": "UT03_03WebApi\\Controllers\\GamesController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T08:08:40.159Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "JuegosController.cs",
-              "DocumentMoniker": "C:\\Users\\2dawa\\Documents\\UT03_WebApi\\UT03_02WebApi\\Controllers\\JuegosController.cs",
-              "RelativeDocumentMoniker": "UT03_02WebApi\\Controllers\\JuegosController.cs",
-              "ToolTip": "C:\\Users\\2dawa\\Documents\\UT03_WebApi\\UT03_02WebApi\\Controllers\\JuegosController.cs",
-              "RelativeToolTip": "UT03_02WebApi\\Controllers\\JuegosController.cs",
-              "ViewState": "AQIAACUAAAAAAAAAAAAgwFMAAAALAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T08:08:36.658Z",
+              "WhenOpened": "2024-11-20T08:57:08.914Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\2dawa\\Documents\\UT03_WebApi\\UT03_01WebApi\\Program.cs",
-              "RelativeDocumentMoniker": "UT03_01WebApi\\Program.cs",
-              "ToolTip": "C:\\Users\\2dawa\\Documents\\UT03_WebApi\\UT03_01WebApi\\Program.cs",
-              "RelativeToolTip": "UT03_01WebApi\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "Genre.cs",
+              "DocumentMoniker": "C:\\Users\\2dawa\\Documents\\UT03_WebApi\\UT03_03WebApi\\Models\\Genre.cs",
+              "RelativeDocumentMoniker": "UT03_03WebApi\\Models\\Genre.cs",
+              "ToolTip": "C:\\Users\\2dawa\\Documents\\UT03_WebApi\\UT03_03WebApi\\Models\\Genre.cs",
+              "RelativeToolTip": "UT03_03WebApi\\Models\\Genre.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T08:31:41.998Z"
+              "WhenOpened": "2024-11-20T08:52:49.02Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Game.cs",
+              "DocumentMoniker": "C:\\Users\\2dawa\\Documents\\UT03_WebApi\\UT03_03WebApi\\Models\\Game.cs",
+              "RelativeDocumentMoniker": "UT03_03WebApi\\Models\\Game.cs",
+              "ToolTip": "C:\\Users\\2dawa\\Documents\\UT03_WebApi\\UT03_03WebApi\\Models\\Game.cs",
+              "RelativeToolTip": "UT03_03WebApi\\Models\\Game.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T08:51:46.604Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UT03_03WebApi",
+              "DocumentMoniker": "C:\\Users\\2dawa\\Documents\\UT03_WebApi\\UT03_03WebApi\\UT03_03WebApi.csproj",
+              "RelativeDocumentMoniker": "UT03_03WebApi\\UT03_03WebApi.csproj",
+              "ToolTip": "C:\\Users\\2dawa\\Documents\\UT03_WebApi\\UT03_03WebApi\\UT03_03WebApi.csproj",
+              "RelativeToolTip": "UT03_03WebApi\\UT03_03WebApi.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-20T08:50:59.751Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             }
           ]
         },
