@@ -22,9 +22,19 @@ namespace UT03_03WebApi.Controllers
 
         // GET: api/Games
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<Game>>> GetGame()
+        public async Task<ActionResult<IEnumerable<object>>> GetGame()
         {
-            return await _context.Game.ToListAsync();
+            return await _context.Game.Select(g => new
+            {
+                Id = g.Id,
+                Name = g.Name,
+                Genre= new {
+                    Id = g.Genre.Id,
+                    Name=g.Genre.Name
+                }
+            })
+
+                .ToListAsync();
         }
 
         // GET: api/Games/5

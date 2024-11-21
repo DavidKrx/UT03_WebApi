@@ -11,7 +11,7 @@ namespace UT03_02WebApi.Controllers
 
         private static List<Juego> Juegos = new List<Juego>()
         {
-               new Juego {
+            new Juego {
                    Id = 1,
                    Genre = "Guerra",
                    Title = "WarHammer"

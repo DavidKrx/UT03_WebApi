@@ -10,9 +10,9 @@ using UT03_03WebApi.Models;
         public GameContext (DbContextOptions<GameContext> options)
             : base(options)
         {
-        }
+}
 
-        public DbSet<UT03_03WebApi.Models.Game> Game { get; set; } = default!;
+public DbSet<UT03_03WebApi.Models.Game> Game { get; set; }
 
-public DbSet<UT03_03WebApi.Models.Genre> Genre { get; set; } = default!;
+public DbSet<UT03_03WebApi.Models.Genre> Genre { get; set; }
     }

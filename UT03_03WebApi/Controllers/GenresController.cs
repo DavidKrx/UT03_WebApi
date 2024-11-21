@@ -20,11 +20,20 @@ namespace UT03_03WebApi.Controllers
             _context = context;
         }
 
+
         // GET: api/Genres
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<Genre>>> GetGenre()
+        public async Task<ActionResult<IEnumerable<object>>> GetGenre()
         {
-            return await _context.Genre.ToListAsync();
+            return await _context.Genre
+                .Select(g => new
+                {
+                    Id = g.Id,
+                    Name = g.Name,
+                    Games = g.Games.Select(g => new { g.Name })
+                })
+                .ToListAsync();
+        
         }
 
         // GET: api/Genres/5
@@ -77,10 +86,19 @@ namespace UT03_03WebApi.Controllers
         [HttpPost]
         public async Task<ActionResult<Genre>> PostGenre(Genre genre)
         {
-            _context.Genre.Add(genre);
-            await _context.SaveChangesAsync();
+            if (ModelState.IsValid)
+            {
+                if (genre == null) { return NotFound(); }
+                else
+                {
+                    _context.Genre.Add(genre);
+                    await _context.SaveChangesAsync();
 
-            return CreatedAtAction("GetGenre", new { id = genre.Id }, genre);
+                    return CreatedAtAction("GetGenre", new { id = genre.Id }, genre);
+                }
+
+            }
+            return BadRequest();
         }
 
         // DELETE: api/Genres/5

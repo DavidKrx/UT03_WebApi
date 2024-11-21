@@ -1,21 +1,19 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel;
+using System.Text.Json.Serialization;
 
 namespace UT03_03WebApi.Models
 {
     public class Game
     {
-            [Key]
-            public int Id { get; set; }
-            [DisplayName("Titulo")]
-            [Required(ErrorMessage = "El campo es obligatorio.")]
-            [StringLength(15, MinimumLength = 5, ErrorMessage = "El titulo debe tener entre {2} y {1} caracteres.")]
-            public string Title { get; set; }
-            [DisplayName("Genero")]
-            [Required(ErrorMessage = "El campo es obligatorio.")]
-            [StringLength(12, MinimumLength = 2, ErrorMessage = "El genero debe tener entre {2} y {1} caracteres.")]
-
+             [Key]
+             public int Id { get; set; }
+             [DisplayName("Nombre")]
+             [Required(ErrorMessage = "El campo es obligatorio.")]
+             public string Name{ get; set; }
+             [Required]
              public int GenreId { get; set; }
+             [JsonIgnore]
              public Genre? Genre { get; set; }
 
         }
