@@ -22,19 +22,9 @@ namespace UT03_03WebApi.Controllers
 
         // GET: api/Games
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<object>>> GetGame()
+        public async Task<ActionResult<IEnumerable<Game>>> GetGame()
         {
-            return await _context.Game.Select(g => new
-            {
-                Id = g.Id,
-                Name = g.Name,
-                Genre= new {
-                    Id = g.Genre.Id,
-                    Name=g.Genre.Name
-                }
-            })
-
-                .ToListAsync();
+            return await _context.Game.Include(g=>g.Genre).ToListAsync();
         }
 
         // GET: api/Games/5
@@ -54,8 +44,9 @@ namespace UT03_03WebApi.Controllers
         // PUT: api/Games/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]
-        public async Task<IActionResult> PutGame(int id, Game game)
+        public async Task<IActionResult> PutGame(int id, [FromBody] Game game)
         {
+            
             if (id != game.Id)
             {
                 return BadRequest();
@@ -85,7 +76,7 @@ namespace UT03_03WebApi.Controllers
         // POST: api/Games
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
-        public async Task<ActionResult<Game>> PostGame(Game game)
+        public async Task<ActionResult<Game>> PostGame([FromBody] Game game)
         {
             _context.Game.Add(game);
             await _context.SaveChangesAsync();

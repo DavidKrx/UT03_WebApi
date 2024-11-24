@@ -86,18 +86,19 @@ namespace UT03_03WebApi.Controllers
         [HttpPost]
         public async Task<ActionResult<Genre>> PostGenre(Genre genre)
         {
+            if (genre == null)
+            {
+                return NotFound();
+            }
+
             if (ModelState.IsValid)
             {
-                if (genre == null) { return NotFound(); }
-                else
-                {
-                    _context.Genre.Add(genre);
-                    await _context.SaveChangesAsync();
+                _context.Genre.Add(genre);
+                await _context.SaveChangesAsync();
 
-                    return CreatedAtAction("GetGenre", new { id = genre.Id }, genre);
-                }
-
+                return CreatedAtAction("GetGenre", new { id = genre.Id }, genre);
             }
+
             return BadRequest();
         }
 
@@ -106,6 +107,7 @@ namespace UT03_03WebApi.Controllers
         public async Task<IActionResult> DeleteGenre(int id)
         {
             var genre = await _context.Genre.FindAsync(id);
+
             if (genre == null)
             {
                 return NotFound();

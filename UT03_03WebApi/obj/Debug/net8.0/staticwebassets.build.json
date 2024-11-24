@@ -1,11 +1,12 @@
 {
   "Version": 1,
-  "Hash": "gC9lgXt8AKxr2Ky0U7qY8EY/dxH0YJ6mw6SHKn8QYPY=",
+  "Hash": "dFXLLMfs4pk/HDVUKum/eA9OlpySpfdm+aV3mtJ15TQ=",
   "Source": "UT03_03WebApi",
   "BasePath": "_content/UT03_03WebApi",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [],
-  "Assets": []
+  "Assets": [],
+  "Endpoints": []
 }

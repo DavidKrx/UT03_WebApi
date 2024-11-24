@@ -519,3 +519,7 @@ C:\Users\david\Documents\UT03_WebApi\UT03_03WebApi\obj\Debug\net8.0\refint\UT03_
 C:\Users\david\Documents\UT03_WebApi\UT03_03WebApi\obj\Debug\net8.0\UT03_03WebApi.pdb
 C:\Users\david\Documents\UT03_WebApi\UT03_03WebApi\obj\Debug\net8.0\UT03_03WebApi.genruntimeconfig.cache
 C:\Users\david\Documents\UT03_WebApi\UT03_03WebApi\obj\Debug\net8.0\ref\UT03_03WebApi.dll
+C:\Users\david\Documents\UT03_WebApi\UT03_03WebApi\bin\Debug\net8.0\UT03_03WebApi.staticwebassets.endpoints.json
+C:\Users\david\Documents\UT03_WebApi\UT03_03WebApi\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\david\Documents\UT03_WebApi\UT03_03WebApi\obj\Debug\net8.0\staticwebassets\msbuild.UT03_03WebApi.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\david\Documents\UT03_WebApi\UT03_03WebApi\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
