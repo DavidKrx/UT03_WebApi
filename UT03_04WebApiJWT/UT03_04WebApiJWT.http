@@ -1,0 +1,6 @@
+@UT03_04WebApiJWT_HostAddress = http://localhost:5001
+
+GET {{UT03_04WebApiJWT_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

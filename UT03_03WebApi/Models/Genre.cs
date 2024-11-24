@@ -1,6 +1,5 @@
 ﻿using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
-using System.Text.Json.Serialization;
 
 namespace UT03_03WebApi.Models
 {
@@ -11,7 +10,6 @@ namespace UT03_03WebApi.Models
         [DisplayName("Nombre")]
         [Required(ErrorMessage = "El campo es obligatorio.")]
         public string Name { get; set; }
-        [JsonIgnore]
         public List<Game>? Games { get; set; }
     }
 }

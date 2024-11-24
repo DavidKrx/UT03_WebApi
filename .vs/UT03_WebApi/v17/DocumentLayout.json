@@ -3,12 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\david\\Documents\\UT03_WebApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{638296D8-1936-4109-81FB-5CC470890814}|UT03_03WebApi\\UT03_03WebApi.csproj|c:\\users\\david\\documents\\ut03_webapi\\ut03_03webapi\\controllers\\gamescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{638296D8-1936-4109-81FB-5CC470890814}|UT03_03WebApi\\UT03_03WebApi.csproj|solutionrelative:ut03_03webapi\\controllers\\gamescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{576A42F9-2D43-4C5B-ACB6-D758234307AB}|UT03_04WebApiJWT\\UT03_04WebApiJWT.csproj|c:\\users\\david\\documents\\ut03_webapi\\ut03_04webapijwt\\controllers\\authenticatecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{576A42F9-2D43-4C5B-ACB6-D758234307AB}|UT03_04WebApiJWT\\UT03_04WebApiJWT.csproj|solutionrelative:ut03_04webapijwt\\controllers\\authenticatecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{638296D8-1936-4109-81FB-5CC470890814}|UT03_03WebApi\\UT03_03WebApi.csproj|c:\\users\\david\\documents\\ut03_webapi\\ut03_03webapi\\controllers\\genrescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{638296D8-1936-4109-81FB-5CC470890814}|UT03_03WebApi\\UT03_03WebApi.csproj|solutionrelative:ut03_03webapi\\controllers\\genrescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{576A42F9-2D43-4C5B-ACB6-D758234307AB}|UT03_04WebApiJWT\\UT03_04WebApiJWT.csproj|c:\\users\\david\\documents\\ut03_webapi\\ut03_04webapijwt\\controllers\\gamescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{576A42F9-2D43-4C5B-ACB6-D758234307AB}|UT03_04WebApiJWT\\UT03_04WebApiJWT.csproj|solutionrelative:ut03_04webapijwt\\controllers\\gamescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{576A42F9-2D43-4C5B-ACB6-D758234307AB}|UT03_04WebApiJWT\\UT03_04WebApiJWT.csproj|c:\\users\\david\\documents\\ut03_webapi\\ut03_04webapijwt\\controllers\\genrescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{576A42F9-2D43-4C5B-ACB6-D758234307AB}|UT03_04WebApiJWT\\UT03_04WebApiJWT.csproj|solutionrelative:ut03_04webapijwt\\controllers\\genrescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{576A42F9-2D43-4C5B-ACB6-D758234307AB}|UT03_04WebApiJWT\\UT03_04WebApiJWT.csproj|c:\\users\\david\\documents\\ut03_webapi\\ut03_04webapijwt\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{576A42F9-2D43-4C5B-ACB6-D758234307AB}|UT03_04WebApiJWT\\UT03_04WebApiJWT.csproj|solutionrelative:ut03_04webapijwt\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{576A42F9-2D43-4C5B-ACB6-D758234307AB}|UT03_04WebApiJWT\\UT03_04WebApiJWT.csproj|c:\\users\\david\\documents\\ut03_webapi\\ut03_04webapijwt\\data\\gamecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{576A42F9-2D43-4C5B-ACB6-D758234307AB}|UT03_04WebApiJWT\\UT03_04WebApiJWT.csproj|solutionrelative:ut03_04webapijwt\\data\\gamecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{576A42F9-2D43-4C5B-ACB6-D758234307AB}|UT03_04WebApiJWT\\UT03_04WebApiJWT.csproj|c:\\users\\david\\documents\\ut03_webapi\\ut03_04webapijwt\\auth\\jwtauthcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{576A42F9-2D43-4C5B-ACB6-D758234307AB}|UT03_04WebApiJWT\\UT03_04WebApiJWT.csproj|solutionrelative:ut03_04webapijwt\\auth\\jwtauthcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{576A42F9-2D43-4C5B-ACB6-D758234307AB}|UT03_04WebApiJWT\\UT03_04WebApiJWT.csproj|c:\\users\\david\\documents\\ut03_webapi\\ut03_04webapijwt\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{576A42F9-2D43-4C5B-ACB6-D758234307AB}|UT03_04WebApiJWT\\UT03_04WebApiJWT.csproj|solutionrelative:ut03_04webapijwt\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{576A42F9-2D43-4C5B-ACB6-D758234307AB}|UT03_04WebApiJWT\\UT03_04WebApiJWT.csproj|c:\\users\\david\\documents\\ut03_webapi\\ut03_04webapijwt\\models\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{576A42F9-2D43-4C5B-ACB6-D758234307AB}|UT03_04WebApiJWT\\UT03_04WebApiJWT.csproj|solutionrelative:ut03_04webapijwt\\models\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +42,110 @@
       "DocumentGroups": [
         {
           "DockedWidth": 1352,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "GenresController.cs",
-              "DocumentMoniker": "C:\\Users\\david\\Documents\\UT03_WebApi\\UT03_03WebApi\\Controllers\\GenresController.cs",
-              "RelativeDocumentMoniker": "UT03_03WebApi\\Controllers\\GenresController.cs",
-              "ToolTip": "C:\\Users\\david\\Documents\\UT03_WebApi\\UT03_03WebApi\\Controllers\\GenresController.cs",
-              "RelativeToolTip": "UT03_03WebApi\\Controllers\\GenresController.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAowBUAAAAAAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\david\\Documents\\UT03_WebApi\\UT03_04WebApiJWT\\Controllers\\GenresController.cs",
+              "RelativeDocumentMoniker": "UT03_04WebApiJWT\\Controllers\\GenresController.cs",
+              "ToolTip": "C:\\Users\\david\\Documents\\UT03_WebApi\\UT03_04WebApiJWT\\Controllers\\GenresController.cs",
+              "RelativeToolTip": "UT03_04WebApiJWT\\Controllers\\GenresController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T18:12:50.823Z",
+              "WhenOpened": "2024-11-24T21:41:35.16Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GamesController.cs",
+              "DocumentMoniker": "C:\\Users\\david\\Documents\\UT03_WebApi\\UT03_04WebApiJWT\\Controllers\\GamesController.cs",
+              "RelativeDocumentMoniker": "UT03_04WebApiJWT\\Controllers\\GamesController.cs",
+              "ToolTip": "C:\\Users\\david\\Documents\\UT03_WebApi\\UT03_04WebApiJWT\\Controllers\\GamesController.cs",
+              "RelativeToolTip": "UT03_04WebApiJWT\\Controllers\\GamesController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T21:41:22.226Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\david\\Documents\\UT03_WebApi\\UT03_04WebApiJWT\\appsettings.json",
+              "RelativeDocumentMoniker": "UT03_04WebApiJWT\\appsettings.json",
+              "ToolTip": "C:\\Users\\david\\Documents\\UT03_WebApi\\UT03_04WebApiJWT\\appsettings.json",
+              "RelativeToolTip": "UT03_04WebApiJWT\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-24T21:31:03.37Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\david\\Documents\\UT03_WebApi\\UT03_04WebApiJWT\\Program.cs",
+              "RelativeDocumentMoniker": "UT03_04WebApiJWT\\Program.cs",
+              "ToolTip": "C:\\Users\\david\\Documents\\UT03_WebApi\\UT03_04WebApiJWT\\Program.cs",
+              "RelativeToolTip": "UT03_04WebApiJWT\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T21:21:27.905Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "GamesController.cs",
-              "DocumentMoniker": "C:\\Users\\david\\Documents\\UT03_WebApi\\UT03_03WebApi\\Controllers\\GamesController.cs",
-              "RelativeDocumentMoniker": "UT03_03WebApi\\Controllers\\GamesController.cs",
-              "ToolTip": "C:\\Users\\david\\Documents\\UT03_WebApi\\UT03_03WebApi\\Controllers\\GamesController.cs",
-              "RelativeToolTip": "UT03_03WebApi\\Controllers\\GamesController.cs",
-              "ViewState": "AgIAAEEAAAAAAAAAAAAIwC4AAAAsAAAAAAAAAA==",
+              "Title": "AuthenticateController.cs",
+              "DocumentMoniker": "C:\\Users\\david\\Documents\\UT03_WebApi\\UT03_04WebApiJWT\\Controllers\\AuthenticateController.cs",
+              "RelativeDocumentMoniker": "UT03_04WebApiJWT\\Controllers\\AuthenticateController.cs",
+              "ToolTip": "C:\\Users\\david\\Documents\\UT03_WebApi\\UT03_04WebApiJWT\\Controllers\\AuthenticateController.cs",
+              "RelativeToolTip": "UT03_04WebApiJWT\\Controllers\\AuthenticateController.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAA5wD4AAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T23:00:13.534Z",
+              "WhenOpened": "2024-11-24T20:23:04.143Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GameContext.cs",
+              "DocumentMoniker": "C:\\Users\\david\\Documents\\UT03_WebApi\\UT03_04WebApiJWT\\Data\\GameContext.cs",
+              "RelativeDocumentMoniker": "UT03_04WebApiJWT\\Data\\GameContext.cs",
+              "ToolTip": "C:\\Users\\david\\Documents\\UT03_WebApi\\UT03_04WebApiJWT\\Data\\GameContext.cs",
+              "RelativeToolTip": "UT03_04WebApiJWT\\Data\\GameContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T21:46:56.991Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "JWTAuthContext.cs",
+              "DocumentMoniker": "C:\\Users\\david\\Documents\\UT03_WebApi\\UT03_04WebApiJWT\\Auth\\JWTAuthContext.cs",
+              "RelativeDocumentMoniker": "UT03_04WebApiJWT\\Auth\\JWTAuthContext.cs",
+              "ToolTip": "C:\\Users\\david\\Documents\\UT03_WebApi\\UT03_04WebApiJWT\\Auth\\JWTAuthContext.cs",
+              "RelativeToolTip": "UT03_04WebApiJWT\\Auth\\JWTAuthContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T21:19:08.924Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Register.cs",
+              "DocumentMoniker": "C:\\Users\\david\\Documents\\UT03_WebApi\\UT03_04WebApiJWT\\Models\\Register.cs",
+              "RelativeDocumentMoniker": "UT03_04WebApiJWT\\Models\\Register.cs",
+              "ToolTip": "C:\\Users\\david\\Documents\\UT03_WebApi\\UT03_04WebApiJWT\\Models\\Register.cs",
+              "RelativeToolTip": "UT03_04WebApiJWT\\Models\\Register.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T21:00:47.348Z",
               "EditorCaption": ""
             }
           ]
@@ -58,15 +160,15 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
-            },
-            {
-              "$type": "Bookmark",
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
             }
           ]
         }
