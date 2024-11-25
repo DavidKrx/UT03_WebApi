@@ -1,4 +1,5 @@
-﻿using System.IdentityModel.Tokens.Jwt;
+﻿using System.Data;
+using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
 using Microsoft.AspNetCore.Identity;
@@ -13,7 +14,8 @@ namespace UT03_04WebApiJWT.Controllers
     public class AuthenticateController : ControllerBase
     {
         private readonly UserManager<IdentityUser> _userManager;
-        private readonly IConfiguration _configuration; public AuthenticateController(
+        private readonly IConfiguration _configuration; 
+        public AuthenticateController(
             UserManager<IdentityUser> userManager,
             IConfiguration configuration)
         {
@@ -39,7 +41,8 @@ namespace UT03_04WebApiJWT.Controllers
                 var token = GetToken(authClaims); return Ok(new
                 {
                     token = new JwtSecurityTokenHandler().WriteToken(token),
-                    expiration = token.ValidTo
+                    expiration = token.ValidTo,
+                    role = userRoles[0]
                 });
             }
             return Unauthorized();
@@ -57,8 +60,9 @@ namespace UT03_04WebApiJWT.Controllers
                     UserName = model.Username
                 };
             var result = await _userManager.CreateAsync(user, model.Password);
+            await _userManager.AddToRoleAsync(user, "Basic");
             if (!result.Succeeded)
-                return StatusCode(StatusCodes.Status500InternalServerError, new Response { Status = "Error", Message = "User creation failed! Please check user details and try again." }); return Ok(new Response { Status = "Success", Message = "User created successfully!" });
+                return StatusCode(StatusCodes.Status500InternalServerError, new Response { Status = "Error", Message = "User creation failed! Please check user details and try again." }); return Ok(new Response { Status = "Success", Message = "User created successfully" });
         }
         private JwtSecurityToken GetToken(List<Claim> authClaims)
         {
@@ -68,7 +72,8 @@ namespace UT03_04WebApiJWT.Controllers
                 expires: DateTime.Now.AddHours(3),
                 claims: authClaims,
                 signingCredentials: new SigningCredentials(authSigningKey, SecurityAlgorithms.HmacSha256)
-                ); return token;
+                ); 
+            return token;
         }
     }
 }
