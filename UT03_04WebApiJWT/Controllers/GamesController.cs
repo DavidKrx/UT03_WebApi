@@ -13,6 +13,7 @@ namespace UT03_04WebApiJWT.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class GamesController : ControllerBase
     {
         private readonly GameContext _context;

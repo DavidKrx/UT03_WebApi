@@ -3,45 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\2dawa\\Documents\\UT03_WebApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/UserAuthJWT/True/SqlTable/dbo.AspNetUsers.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+      "AbsoluteMoniker": "D:0:0:{576A42F9-2D43-4C5B-ACB6-D758234307AB}|UT03_04WebApiJWT\\UT03_04WebApiJWT.csproj|c:\\users\\2dawa\\documents\\ut03_webapi\\ut03_04webapijwt\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{576A42F9-2D43-4C5B-ACB6-D758234307AB}|UT03_04WebApiJWT\\UT03_04WebApiJWT.csproj|solutionrelative:ut03_04webapijwt\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{576A42F9-2D43-4C5B-ACB6-D758234307AB}|UT03_04WebApiJWT\\UT03_04WebApiJWT.csproj|c:\\users\\2dawa\\documents\\ut03_webapi\\ut03_04webapijwt\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{576A42F9-2D43-4C5B-ACB6-D758234307AB}|UT03_04WebApiJWT\\UT03_04WebApiJWT.csproj|solutionrelative:ut03_04webapijwt\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{576A42F9-2D43-4C5B-ACB6-D758234307AB}|UT03_04WebApiJWT\\UT03_04WebApiJWT.csproj|c:\\users\\2dawa\\documents\\ut03_webapi\\ut03_04webapijwt\\controllers\\authenticatecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{576A42F9-2D43-4C5B-ACB6-D758234307AB}|UT03_04WebApiJWT\\UT03_04WebApiJWT.csproj|solutionrelative:ut03_04webapijwt\\controllers\\authenticatecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{576A42F9-2D43-4C5B-ACB6-D758234307AB}|UT03_04WebApiJWT\\UT03_04WebApiJWT.csproj|c:\\users\\2dawa\\documents\\ut03_webapi\\ut03_04webapijwt\\data\\gamecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{576A42F9-2D43-4C5B-ACB6-D758234307AB}|UT03_04WebApiJWT\\UT03_04WebApiJWT.csproj|solutionrelative:ut03_04webapijwt\\data\\gamecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{576A42F9-2D43-4C5B-ACB6-D758234307AB}|UT03_04WebApiJWT\\UT03_04WebApiJWT.csproj|c:\\users\\2dawa\\documents\\ut03_webapi\\ut03_04webapijwt\\auth\\jwtauthcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{576A42F9-2D43-4C5B-ACB6-D758234307AB}|UT03_04WebApiJWT\\UT03_04WebApiJWT.csproj|solutionrelative:ut03_04webapijwt\\auth\\jwtauthcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{576A42F9-2D43-4C5B-ACB6-D758234307AB}|UT03_04WebApiJWT\\UT03_04WebApiJWT.csproj|c:\\users\\2dawa\\documents\\ut03_webapi\\ut03_04webapijwt\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{576A42F9-2D43-4C5B-ACB6-D758234307AB}|UT03_04WebApiJWT\\UT03_04WebApiJWT.csproj|solutionrelative:ut03_04webapijwt\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{576A42F9-2D43-4C5B-ACB6-D758234307AB}|UT03_04WebApiJWT\\UT03_04WebApiJWT.csproj|c:\\users\\2dawa\\documents\\ut03_webapi\\ut03_04webapijwt\\controllers\\gamescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{576A42F9-2D43-4C5B-ACB6-D758234307AB}|UT03_04WebApiJWT\\UT03_04WebApiJWT.csproj|solutionrelative:ut03_04webapijwt\\controllers\\gamescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{576A42F9-2D43-4C5B-ACB6-D758234307AB}|UT03_04WebApiJWT\\UT03_04WebApiJWT.csproj|c:\\users\\2dawa\\documents\\ut03_webapi\\ut03_04webapijwt\\models\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{576A42F9-2D43-4C5B-ACB6-D758234307AB}|UT03_04WebApiJWT\\UT03_04WebApiJWT.csproj|solutionrelative:ut03_04webapijwt\\models\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/Game/True/SqlTable/dbo.Genre.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/Game/True/SqlTable/dbo.Game.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{576A42F9-2D43-4C5B-ACB6-D758234307AB}|UT03_04WebApiJWT\\UT03_04WebApiJWT.csproj|c:\\users\\2dawa\\documents\\ut03_webapi\\ut03_04webapijwt\\controllers\\genrescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{576A42F9-2D43-4C5B-ACB6-D758234307AB}|UT03_04WebApiJWT\\UT03_04WebApiJWT.csproj|solutionrelative:ut03_04webapijwt\\controllers\\genrescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{576A42F9-2D43-4C5B-ACB6-D758234307AB}|UT03_04WebApiJWT\\UT03_04WebApiJWT.csproj|c:\\users\\2dawa\\documents\\ut03_webapi\\ut03_04webapijwt\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{576A42F9-2D43-4C5B-ACB6-D758234307AB}|UT03_04WebApiJWT\\UT03_04WebApiJWT.csproj|solutionrelative:ut03_04webapijwt\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{576A42F9-2D43-4C5B-ACB6-D758234307AB}|UT03_04WebApiJWT\\UT03_04WebApiJWT.csproj|c:\\users\\2dawa\\documents\\ut03_webapi\\ut03_04webapijwt\\models\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{576A42F9-2D43-4C5B-ACB6-D758234307AB}|UT03_04WebApiJWT\\UT03_04WebApiJWT.csproj|solutionrelative:ut03_04webapijwt\\models\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -51,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 1352,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -59,35 +42,42 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "dbo.AspNetUsers [Datos]",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/UserAuthJWT/True/SqlTable/dbo.AspNetUsers.sql",
-              "ToolTip": "dbo.AspNetUsers [Datos]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-11-25T13:18:39.26Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "dbo.Game [Datos]",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/Game/True/SqlTable/dbo.Game.sql",
-              "ToolTip": "dbo.Game [Datos]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-11-25T11:54:27.773Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\2dawa\\Documents\\UT03_WebApi\\UT03_04WebApiJWT\\Program.cs",
-              "RelativeDocumentMoniker": "UT03_04WebApiJWT\\Program.cs",
-              "ToolTip": "C:\\Users\\2dawa\\Documents\\UT03_WebApi\\UT03_04WebApiJWT\\Program.cs",
-              "RelativeToolTip": "UT03_04WebApiJWT\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAcAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "GenresController.cs",
+              "DocumentMoniker": "C:\\Users\\2dawa\\Documents\\UT03_WebApi\\UT03_04WebApiJWT\\Controllers\\GenresController.cs",
+              "RelativeDocumentMoniker": "UT03_04WebApiJWT\\Controllers\\GenresController.cs",
+              "ToolTip": "C:\\Users\\2dawa\\Documents\\UT03_WebApi\\UT03_04WebApiJWT\\Controllers\\GenresController.cs",
+              "RelativeToolTip": "UT03_04WebApiJWT\\Controllers\\GenresController.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAQwCMAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T21:21:27.905Z"
+              "WhenOpened": "2024-11-27T09:34:09.309Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Login.cs",
+              "DocumentMoniker": "C:\\Users\\2dawa\\Documents\\UT03_WebApi\\UT03_04WebApiJWT\\Models\\Login.cs",
+              "RelativeDocumentMoniker": "UT03_04WebApiJWT\\Models\\Login.cs",
+              "ToolTip": "C:\\Users\\2dawa\\Documents\\UT03_WebApi\\UT03_04WebApiJWT\\Models\\Login.cs",
+              "RelativeToolTip": "UT03_04WebApiJWT\\Models\\Login.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T09:31:28.288Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\2dawa\\Documents\\UT03_WebApi\\UT03_04WebApiJWT\\appsettings.json",
+              "RelativeDocumentMoniker": "UT03_04WebApiJWT\\appsettings.json",
+              "ToolTip": "C:\\Users\\2dawa\\Documents\\UT03_WebApi\\UT03_04WebApiJWT\\appsettings.json",
+              "RelativeToolTip": "UT03_04WebApiJWT\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-27T09:20:25.31Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -97,96 +87,35 @@
               "RelativeDocumentMoniker": "UT03_04WebApiJWT\\Auth\\JWTAuthContext.cs",
               "ToolTip": "C:\\Users\\2dawa\\Documents\\UT03_WebApi\\UT03_04WebApiJWT\\Auth\\JWTAuthContext.cs",
               "RelativeToolTip": "UT03_04WebApiJWT\\Auth\\JWTAuthContext.cs",
-              "ViewState": "AQIAACoAAAAAAAAAAAAowDcAAABIAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAA/AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T21:19:08.924Z",
+              "WhenOpened": "2024-11-27T08:51:27.156Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\2dawa\\Documents\\UT03_WebApi\\UT03_04WebApiJWT\\Program.cs",
+              "RelativeDocumentMoniker": "UT03_04WebApiJWT\\Program.cs",
+              "ToolTip": "C:\\Users\\2dawa\\Documents\\UT03_WebApi\\UT03_04WebApiJWT\\Program.cs",
+              "RelativeToolTip": "UT03_04WebApiJWT\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvyIAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T08:45:41.822Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "AuthenticateController.cs",
               "DocumentMoniker": "C:\\Users\\2dawa\\Documents\\UT03_WebApi\\UT03_04WebApiJWT\\Controllers\\AuthenticateController.cs",
               "RelativeDocumentMoniker": "UT03_04WebApiJWT\\Controllers\\AuthenticateController.cs",
               "ToolTip": "C:\\Users\\2dawa\\Documents\\UT03_WebApi\\UT03_04WebApiJWT\\Controllers\\AuthenticateController.cs",
               "RelativeToolTip": "UT03_04WebApiJWT\\Controllers\\AuthenticateController.cs",
-              "ViewState": "AQIAABQAAAAAAAAAAAAgwEAAAADzAAAA",
+              "ViewState": "AQIAABIAAAAAAAAAAAAYwCgAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T20:23:04.143Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Register.cs",
-              "DocumentMoniker": "C:\\Users\\2dawa\\Documents\\UT03_WebApi\\UT03_04WebApiJWT\\Models\\Register.cs",
-              "RelativeDocumentMoniker": "UT03_04WebApiJWT\\Models\\Register.cs",
-              "ToolTip": "C:\\Users\\2dawa\\Documents\\UT03_WebApi\\UT03_04WebApiJWT\\Models\\Register.cs",
-              "RelativeToolTip": "UT03_04WebApiJWT\\Models\\Register.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T21:00:47.348Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "GamesController.cs",
-              "DocumentMoniker": "C:\\Users\\2dawa\\Documents\\UT03_WebApi\\UT03_04WebApiJWT\\Controllers\\GamesController.cs",
-              "RelativeDocumentMoniker": "UT03_04WebApiJWT\\Controllers\\GamesController.cs",
-              "ToolTip": "C:\\Users\\2dawa\\Documents\\UT03_WebApi\\UT03_04WebApiJWT\\Controllers\\GamesController.cs",
-              "RelativeToolTip": "UT03_04WebApiJWT\\Controllers\\GamesController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T21:41:22.226Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "dbo.Genre [Datos]",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/Game/True/SqlTable/dbo.Genre.sql",
-              "ToolTip": "dbo.Genre [Datos]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-11-25T11:54:30.601Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\2dawa\\Documents\\UT03_WebApi\\UT03_04WebApiJWT\\appsettings.json",
-              "RelativeDocumentMoniker": "UT03_04WebApiJWT\\appsettings.json",
-              "ToolTip": "C:\\Users\\2dawa\\Documents\\UT03_WebApi\\UT03_04WebApiJWT\\appsettings.json",
-              "RelativeToolTip": "UT03_04WebApiJWT\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAABAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-24T21:31:03.37Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "GenresController.cs",
-              "DocumentMoniker": "C:\\Users\\2dawa\\Documents\\UT03_WebApi\\UT03_04WebApiJWT\\Controllers\\GenresController.cs",
-              "RelativeDocumentMoniker": "UT03_04WebApiJWT\\Controllers\\GenresController.cs",
-              "ToolTip": "C:\\Users\\2dawa\\Documents\\UT03_WebApi\\UT03_04WebApiJWT\\Controllers\\GenresController.cs",
-              "RelativeToolTip": "UT03_04WebApiJWT\\Controllers\\GenresController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T21:41:35.16Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "GameContext.cs",
-              "DocumentMoniker": "C:\\Users\\2dawa\\Documents\\UT03_WebApi\\UT03_04WebApiJWT\\Data\\GameContext.cs",
-              "RelativeDocumentMoniker": "UT03_04WebApiJWT\\Data\\GameContext.cs",
-              "ToolTip": "C:\\Users\\2dawa\\Documents\\UT03_WebApi\\UT03_04WebApiJWT\\Data\\GameContext.cs",
-              "RelativeToolTip": "UT03_04WebApiJWT\\Data\\GameContext.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAgwBwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T21:46:56.991Z",
+              "WhenOpened": "2024-11-27T08:30:57.446Z",
               "EditorCaption": ""
             }
           ]

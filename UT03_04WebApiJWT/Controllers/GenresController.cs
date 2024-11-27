@@ -47,6 +47,7 @@ namespace UT03_04WebApiJWT.Controllers
         // PUT: api/Genres/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]
+        [Authorize(Policy = "BasicPolicy")]
         public async Task<IActionResult> PutGenre(int id, [FromBody] Genre genre)
         {
             if (id != genre.Id)

@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("UT03_04WebApiJWT")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+69f730498049e5196023a5c0b71ad88d6f97e93f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b8dcb5f52d5ac5cd428b2a61b71514be2fd52a2c")]
 [assembly: System.Reflection.AssemblyProductAttribute("UT03_04WebApiJWT")]
 [assembly: System.Reflection.AssemblyTitleAttribute("UT03_04WebApiJWT")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
