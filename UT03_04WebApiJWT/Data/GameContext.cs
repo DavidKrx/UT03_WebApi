@@ -24,9 +24,10 @@ public partial class GameContext : DbContext
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
+        /*
         modelBuilder.Entity<Game>().ToTable("Game", t => t.ExcludeFromMigrations());
         modelBuilder.Entity<Genre>().ToTable("Genre", t => t.ExcludeFromMigrations());
-
+        */
         OnModelCreatingPartial(modelBuilder);
     }
 

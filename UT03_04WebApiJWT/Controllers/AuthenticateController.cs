@@ -29,21 +29,20 @@ namespace UT03_04WebApiJWT.Controllers
             var user = await _userManager.FindByNameAsync(model.Username);
             if (user != null && await _userManager.CheckPasswordAsync(user, model.Password))
             {
+                DateTimeOffset tiempo = new DateTimeOffset(DateTime.UtcNow);
+                string tiempoUnix = tiempo.ToUnixTimeSeconds().ToString();
                 var userRoles = await _userManager.GetRolesAsync(user); 
                 var authClaims = new List<Claim>
                 {
-                    new Claim(JwtRegisteredClaimNames.Name, user.UserName),
-                    new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString())
+                    new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()),
+                    new Claim(JwtRegisteredClaimNames.Iat, tiempoUnix, ClaimValueTypes.Integer64),
+                    new Claim(JwtRegisteredClaimNames.Sub, user.UserName)
                 }; foreach (var userRole in userRoles)
                 {
                     authClaims.Add(new Claim(ClaimTypes.Role, userRole));
                 }
-                var token = GetToken(authClaims); return Ok(new
-                {
-                    token = new JwtSecurityTokenHandler().WriteToken(token),
-                    expiration = token.ValidTo,
-                    role = userRoles[0]
-                });
+                var token = GetToken(authClaims); 
+                return Ok(new JwtSecurityTokenHandler().WriteToken(token));
             }
             return Unauthorized();
         }
@@ -53,7 +52,8 @@ namespace UT03_04WebApiJWT.Controllers
         {
             var userExists = await _userManager.FindByNameAsync(model.Username);
             if (userExists != null)
-                return StatusCode(StatusCodes.Status500InternalServerError, new Response { Status = "Error", Message = "User already exists!" }); IdentityUser user = new()
+                return StatusCode(StatusCodes.Status500InternalServerError, new Response { Status = "Error", Message = "User already exists!" }); 
+                IdentityUser user = new()
                 {
                     Email = model.Email,
                     SecurityStamp = Guid.NewGuid().ToString(),
@@ -62,7 +62,8 @@ namespace UT03_04WebApiJWT.Controllers
             var result = await _userManager.CreateAsync(user, model.Password);
             await _userManager.AddToRoleAsync(user, "Basic");
             if (!result.Succeeded)
-                return StatusCode(StatusCodes.Status500InternalServerError, new Response { Status = "Error", Message = "User creation failed! Please check user details and try again." }); return Ok(new Response { Status = "Success", Message = "User created successfully" });
+                return StatusCode(StatusCodes.Status500InternalServerError, new Response { Status = "Error", Message = "User creation failed! Please check user details and try again." }); 
+            return Ok(new Response { Status = "Success", Message = "User created successfully" });
         }
         private JwtSecurityToken GetToken(List<Claim> authClaims)
         {

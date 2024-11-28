@@ -12,6 +12,8 @@ public partial class Game
         [Required(ErrorMessage = "El campo es obligatorio.")]
         public string Name { get; set; }
         [Required]
+        public int Price { get; set; }
+        [Required]
         public int GenreId { get; set; }
         [JsonIgnore]
         public Genre? Genre { get; set; }

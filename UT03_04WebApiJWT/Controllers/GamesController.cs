@@ -28,6 +28,7 @@ namespace UT03_04WebApiJWT.Controllers
         public async Task<ActionResult<IEnumerable<Game>>> GetGames()
         {
             return await _context.Games.Include(g => g.Genre).ToListAsync();
+            //Include(a => a.Albums).FirstOrDefaultAsync(m => m.ArtistId == id);
         }
 
         // GET: api/Games/5
@@ -49,13 +50,8 @@ namespace UT03_04WebApiJWT.Controllers
         [HttpPut("{id}")]
         public async Task<IActionResult> PutGame(int id, [FromBody] Game game)
         {
-            if (id != game.Id)
-            {
-                return BadRequest();
-            }
-
+            game.Id = id;
             _context.Entry(game).State = EntityState.Modified;
-
             try
             {
                 await _context.SaveChangesAsync();
@@ -77,10 +73,17 @@ namespace UT03_04WebApiJWT.Controllers
         [HttpPost]
         public async Task<ActionResult<Game>> PostGame([FromBody] Game game)
         {
-            _context.Games.Add(game);
-            await _context.SaveChangesAsync();
+            if (ModelState.IsValid)
+            {
+                _context.Games.Add(game);
+                await _context.SaveChangesAsync();
 
-            return CreatedAtAction("GetGame", new { id = game.Id }, game);
+                return CreatedAtAction("GetGame", new { id = game.Id }, game);
+            }
+            else
+            {
+                return BadRequest();
+            }
         }
 
         // DELETE: api/Games/5

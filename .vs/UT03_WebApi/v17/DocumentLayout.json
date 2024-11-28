@@ -3,28 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\2dawa\\Documents\\UT03_WebApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{576A42F9-2D43-4C5B-ACB6-D758234307AB}|UT03_04WebApiJWT\\UT03_04WebApiJWT.csproj|c:\\users\\2dawa\\documents\\ut03_webapi\\ut03_04webapijwt\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{576A42F9-2D43-4C5B-ACB6-D758234307AB}|UT03_04WebApiJWT\\UT03_04WebApiJWT.csproj|solutionrelative:ut03_04webapijwt\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{576A42F9-2D43-4C5B-ACB6-D758234307AB}|UT03_04WebApiJWT\\UT03_04WebApiJWT.csproj|c:\\users\\2dawa\\documents\\ut03_webapi\\ut03_04webapijwt\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{576A42F9-2D43-4C5B-ACB6-D758234307AB}|UT03_04WebApiJWT\\UT03_04WebApiJWT.csproj|solutionrelative:ut03_04webapijwt\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{576A42F9-2D43-4C5B-ACB6-D758234307AB}|UT03_04WebApiJWT\\UT03_04WebApiJWT.csproj|c:\\users\\2dawa\\documents\\ut03_webapi\\ut03_04webapijwt\\controllers\\authenticatecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{576A42F9-2D43-4C5B-ACB6-D758234307AB}|UT03_04WebApiJWT\\UT03_04WebApiJWT.csproj|solutionrelative:ut03_04webapijwt\\controllers\\authenticatecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{576A42F9-2D43-4C5B-ACB6-D758234307AB}|UT03_04WebApiJWT\\UT03_04WebApiJWT.csproj|c:\\users\\2dawa\\documents\\ut03_webapi\\ut03_04webapijwt\\auth\\jwtauthcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{576A42F9-2D43-4C5B-ACB6-D758234307AB}|UT03_04WebApiJWT\\UT03_04WebApiJWT.csproj|solutionrelative:ut03_04webapijwt\\auth\\jwtauthcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{576A42F9-2D43-4C5B-ACB6-D758234307AB}|UT03_04WebApiJWT\\UT03_04WebApiJWT.csproj|c:\\users\\2dawa\\documents\\ut03_webapi\\ut03_04webapijwt\\controllers\\genrescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{576A42F9-2D43-4C5B-ACB6-D758234307AB}|UT03_04WebApiJWT\\UT03_04WebApiJWT.csproj|solutionrelative:ut03_04webapijwt\\controllers\\genrescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{576A42F9-2D43-4C5B-ACB6-D758234307AB}|UT03_04WebApiJWT\\UT03_04WebApiJWT.csproj|c:\\users\\2dawa\\documents\\ut03_webapi\\ut03_04webapijwt\\models\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{576A42F9-2D43-4C5B-ACB6-D758234307AB}|UT03_04WebApiJWT\\UT03_04WebApiJWT.csproj|solutionrelative:ut03_04webapijwt\\models\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{576A42F9-2D43-4C5B-ACB6-D758234307AB}|UT03_04WebApiJWT\\UT03_04WebApiJWT.csproj|c:\\users\\2dawa\\documents\\ut03_webapi\\ut03_04webapijwt\\controllers\\gamescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{576A42F9-2D43-4C5B-ACB6-D758234307AB}|UT03_04WebApiJWT\\UT03_04WebApiJWT.csproj|solutionrelative:ut03_04webapijwt\\controllers\\gamescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 1352,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,80 +22,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "GenresController.cs",
-              "DocumentMoniker": "C:\\Users\\2dawa\\Documents\\UT03_WebApi\\UT03_04WebApiJWT\\Controllers\\GenresController.cs",
-              "RelativeDocumentMoniker": "UT03_04WebApiJWT\\Controllers\\GenresController.cs",
-              "ToolTip": "C:\\Users\\2dawa\\Documents\\UT03_WebApi\\UT03_04WebApiJWT\\Controllers\\GenresController.cs",
-              "RelativeToolTip": "UT03_04WebApiJWT\\Controllers\\GenresController.cs",
-              "ViewState": "AQIAABQAAAAAAAAAAAAQwCMAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-27T09:34:09.309Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Login.cs",
-              "DocumentMoniker": "C:\\Users\\2dawa\\Documents\\UT03_WebApi\\UT03_04WebApiJWT\\Models\\Login.cs",
-              "RelativeDocumentMoniker": "UT03_04WebApiJWT\\Models\\Login.cs",
-              "ToolTip": "C:\\Users\\2dawa\\Documents\\UT03_WebApi\\UT03_04WebApiJWT\\Models\\Login.cs",
-              "RelativeToolTip": "UT03_04WebApiJWT\\Models\\Login.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-27T09:31:28.288Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\2dawa\\Documents\\UT03_WebApi\\UT03_04WebApiJWT\\appsettings.json",
-              "RelativeDocumentMoniker": "UT03_04WebApiJWT\\appsettings.json",
-              "ToolTip": "C:\\Users\\2dawa\\Documents\\UT03_WebApi\\UT03_04WebApiJWT\\appsettings.json",
-              "RelativeToolTip": "UT03_04WebApiJWT\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-27T09:20:25.31Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "JWTAuthContext.cs",
-              "DocumentMoniker": "C:\\Users\\2dawa\\Documents\\UT03_WebApi\\UT03_04WebApiJWT\\Auth\\JWTAuthContext.cs",
-              "RelativeDocumentMoniker": "UT03_04WebApiJWT\\Auth\\JWTAuthContext.cs",
-              "ToolTip": "C:\\Users\\2dawa\\Documents\\UT03_WebApi\\UT03_04WebApiJWT\\Auth\\JWTAuthContext.cs",
-              "RelativeToolTip": "UT03_04WebApiJWT\\Auth\\JWTAuthContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAA/AAAA",
+              "Title": "GamesController.cs",
+              "DocumentMoniker": "C:\\Users\\2dawa\\Documents\\UT03_WebApi\\UT03_04WebApiJWT\\Controllers\\GamesController.cs",
+              "RelativeDocumentMoniker": "UT03_04WebApiJWT\\Controllers\\GamesController.cs",
+              "ToolTip": "C:\\Users\\2dawa\\Documents\\UT03_WebApi\\UT03_04WebApiJWT\\Controllers\\GamesController.cs",
+              "RelativeToolTip": "UT03_04WebApiJWT\\Controllers\\GamesController.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABsAAABFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-27T08:51:27.156Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\2dawa\\Documents\\UT03_WebApi\\UT03_04WebApiJWT\\Program.cs",
-              "RelativeDocumentMoniker": "UT03_04WebApiJWT\\Program.cs",
-              "ToolTip": "C:\\Users\\2dawa\\Documents\\UT03_WebApi\\UT03_04WebApiJWT\\Program.cs",
-              "RelativeToolTip": "UT03_04WebApiJWT\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAADwvyIAAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-27T08:45:41.822Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AuthenticateController.cs",
-              "DocumentMoniker": "C:\\Users\\2dawa\\Documents\\UT03_WebApi\\UT03_04WebApiJWT\\Controllers\\AuthenticateController.cs",
-              "RelativeDocumentMoniker": "UT03_04WebApiJWT\\Controllers\\AuthenticateController.cs",
-              "ToolTip": "C:\\Users\\2dawa\\Documents\\UT03_WebApi\\UT03_04WebApiJWT\\Controllers\\AuthenticateController.cs",
-              "RelativeToolTip": "UT03_04WebApiJWT\\Controllers\\AuthenticateController.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAYwCgAAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-27T08:30:57.446Z",
+              "WhenOpened": "2024-11-28T09:23:44.655Z",
               "EditorCaption": ""
             }
           ]

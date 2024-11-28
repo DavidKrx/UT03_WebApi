@@ -22,7 +22,7 @@ builder.Services.AddDbContext<JWTAuthContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("JWTConnect") ?? throw new InvalidOperationException("Connection string 'GameContext' not found.")));
 
 
-builder.Services.AddIdentity<IdentityUser, IdentityRole>(options =>
+builder.Services.AddIdentityCore<IdentityUser>(options =>
 {
     options.Password.RequiredLength = 6;
     options.Password.RequireNonAlphanumeric = false;
@@ -31,8 +31,8 @@ builder.Services.AddIdentity<IdentityUser, IdentityRole>(options =>
     options.Password.RequireUppercase = false;
     options.SignIn.RequireConfirmedAccount = false;
 })
-    .AddEntityFrameworkStores<JWTAuthContext>()
-    .AddDefaultTokenProviders();
+    .AddRoles<IdentityRole>()
+    .AddEntityFrameworkStores<JWTAuthContext>();
 
 builder.Services.AddControllers().AddJsonOptions(x => x.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.IgnoreCycles);
 
@@ -40,13 +40,11 @@ builder.Services.AddControllers().AddJsonOptions(x => x.JsonSerializerOptions.Re
 // Configurar JWT
 var jwt = builder.Configuration.GetSection("JWT");
 
-builder.Services.AddAuthentication(options =>
-    {
-        options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
-        options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
-    })
+builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
     .AddJwtBearer(options =>
     {
+        options.RequireHttpsMetadata = false;
+        options.SaveToken = true;
         options.TokenValidationParameters = new TokenValidationParameters
         {
             ValidateIssuer = true,
@@ -58,12 +56,12 @@ builder.Services.AddAuthentication(options =>
             IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(jwt["Key"]))
         };
     });
-
+/*
 builder.Services.AddAuthorization(options =>
 {
     options.AddPolicy("BasicPolicy", policy => policy.RequireRole("Basic"));
     options.AddPolicy("AdminPolicy", policy => policy.RequireRole("Admin"));
-});
+});*/
 
 
 var app = builder.Build();
